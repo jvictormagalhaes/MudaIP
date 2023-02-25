@@ -15,6 +15,7 @@ namespace MudaIP
         public FormLogin()
         {
             InitializeComponent();
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -29,15 +30,33 @@ namespace MudaIP
 
             if(TxtUsuario.Text == user & TxtSenha.Text == password)
             {
-                MessageBox.Show("Acesso Liberado!");
+                MessageBox.Show("Acesso Liberado!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 FrmHome frmHome = new FrmHome();
                 frmHome.Show();
                 this.Hide();
+                frmHome = new FrmHome();
+                frmHome.ShowDialog();
+                this.Close();
             }
             else
             {
                 MessageBox.Show("Usuário ou senha incorretos", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void BtnSair_Click(object sender, EventArgs e)
+        {
+            DialogResult Sair = MessageBox.Show("Deseja realmente sair ?", "Pergunta", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (Sair.Equals(DialogResult.Yes))
+            {
+                Application.Exit();
+            }
+        }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

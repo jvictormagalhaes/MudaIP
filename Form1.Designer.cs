@@ -31,15 +31,16 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.chkGM = new System.Windows.Forms.CheckBox();
-            this.chkVW = new System.Windows.Forms.CheckBox();
-            this.chkNissan = new System.Windows.Forms.CheckBox();
+            this.ChkGM = new System.Windows.Forms.CheckBox();
+            this.ChkVW = new System.Windows.Forms.CheckBox();
+            this.ChkNissan = new System.Windows.Forms.CheckBox();
             this.RbGEM = new System.Windows.Forms.RadioButton();
             this.RbOnix = new System.Windows.Forms.RadioButton();
             this.RbUP = new System.Windows.Forms.RadioButton();
             this.RbMQB = new System.Windows.Forms.RadioButton();
             this.RbFrontier = new System.Windows.Forms.RadioButton();
             this.RbVersa = new System.Windows.Forms.RadioButton();
+            this.BtnSair = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,50 +77,50 @@
             this.label1.Text = "Muda IP";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // chkGM
+            // ChkGM
             // 
-            this.chkGM.Appearance = System.Windows.Forms.Appearance.Button;
-            this.chkGM.BackgroundImage = global::MudaIP.Properties.Resources.novo_logo_gm_png_1024x1024;
-            this.chkGM.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.chkGM.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkGM.FlatAppearance.BorderSize = 0;
-            this.chkGM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.chkGM.Location = new System.Drawing.Point(81, 162);
-            this.chkGM.Name = "chkGM";
-            this.chkGM.Size = new System.Drawing.Size(104, 94);
-            this.chkGM.TabIndex = 1;
-            this.chkGM.UseVisualStyleBackColor = true;
-            this.chkGM.CheckedChanged += new System.EventHandler(this.CbGM_CheckedChanged);
+            this.ChkGM.Appearance = System.Windows.Forms.Appearance.Button;
+            this.ChkGM.BackgroundImage = global::MudaIP.Properties.Resources.novo_logo_gm_png_1024x1024;
+            this.ChkGM.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ChkGM.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ChkGM.FlatAppearance.BorderSize = 0;
+            this.ChkGM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ChkGM.Location = new System.Drawing.Point(81, 162);
+            this.ChkGM.Name = "ChkGM";
+            this.ChkGM.Size = new System.Drawing.Size(104, 94);
+            this.ChkGM.TabIndex = 1;
+            this.ChkGM.UseVisualStyleBackColor = true;
+            this.ChkGM.CheckedChanged += new System.EventHandler(this.CbGM_CheckedChanged);
             // 
-            // chkVW
+            // ChkVW
             // 
-            this.chkVW.Appearance = System.Windows.Forms.Appearance.Button;
-            this.chkVW.BackgroundImage = global::MudaIP.Properties.Resources.volkswagen_vw_logo_1;
-            this.chkVW.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.chkVW.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkVW.FlatAppearance.BorderSize = 0;
-            this.chkVW.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.chkVW.Location = new System.Drawing.Point(341, 162);
-            this.chkVW.Name = "chkVW";
-            this.chkVW.Size = new System.Drawing.Size(104, 94);
-            this.chkVW.TabIndex = 2;
-            this.chkVW.UseVisualStyleBackColor = true;
-            this.chkVW.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            this.ChkVW.Appearance = System.Windows.Forms.Appearance.Button;
+            this.ChkVW.BackgroundImage = global::MudaIP.Properties.Resources.volkswagen_vw_logo_1;
+            this.ChkVW.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ChkVW.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ChkVW.FlatAppearance.BorderSize = 0;
+            this.ChkVW.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ChkVW.Location = new System.Drawing.Point(341, 162);
+            this.ChkVW.Name = "ChkVW";
+            this.ChkVW.Size = new System.Drawing.Size(104, 94);
+            this.ChkVW.TabIndex = 2;
+            this.ChkVW.UseVisualStyleBackColor = true;
+            this.ChkVW.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
-            // chkNissan
+            // ChkNissan
             // 
-            this.chkNissan.Appearance = System.Windows.Forms.Appearance.Button;
-            this.chkNissan.BackgroundImage = global::MudaIP.Properties.Resources.nissan_logo_1;
-            this.chkNissan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.chkNissan.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkNissan.FlatAppearance.BorderSize = 0;
-            this.chkNissan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.chkNissan.Location = new System.Drawing.Point(590, 162);
-            this.chkNissan.Name = "chkNissan";
-            this.chkNissan.Size = new System.Drawing.Size(117, 94);
-            this.chkNissan.TabIndex = 3;
-            this.chkNissan.UseVisualStyleBackColor = true;
-            this.chkNissan.CheckedChanged += new System.EventHandler(this.chkNissan_CheckedChanged);
+            this.ChkNissan.Appearance = System.Windows.Forms.Appearance.Button;
+            this.ChkNissan.BackgroundImage = global::MudaIP.Properties.Resources.nissan_logo_1;
+            this.ChkNissan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ChkNissan.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ChkNissan.FlatAppearance.BorderSize = 0;
+            this.ChkNissan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ChkNissan.Location = new System.Drawing.Point(590, 162);
+            this.ChkNissan.Name = "ChkNissan";
+            this.ChkNissan.Size = new System.Drawing.Size(117, 94);
+            this.ChkNissan.TabIndex = 3;
+            this.ChkNissan.UseVisualStyleBackColor = true;
+            this.ChkNissan.CheckedChanged += new System.EventHandler(this.chkNissan_CheckedChanged);
             // 
             // RbGEM
             // 
@@ -194,20 +195,31 @@
             this.RbVersa.UseVisualStyleBackColor = true;
             this.RbVersa.Visible = false;
             // 
+            // BtnSair
+            // 
+            this.BtnSair.Location = new System.Drawing.Point(343, 404);
+            this.BtnSair.Name = "BtnSair";
+            this.BtnSair.Size = new System.Drawing.Size(75, 34);
+            this.BtnSair.TabIndex = 10;
+            this.BtnSair.Text = "Sair";
+            this.BtnSair.UseVisualStyleBackColor = true;
+            this.BtnSair.Click += new System.EventHandler(this.BtnSair_Click);
+            // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BtnSair);
             this.Controls.Add(this.RbFrontier);
             this.Controls.Add(this.RbVersa);
             this.Controls.Add(this.RbUP);
             this.Controls.Add(this.RbMQB);
             this.Controls.Add(this.RbOnix);
             this.Controls.Add(this.RbGEM);
-            this.Controls.Add(this.chkNissan);
-            this.Controls.Add(this.chkVW);
-            this.Controls.Add(this.chkGM);
+            this.Controls.Add(this.ChkNissan);
+            this.Controls.Add(this.ChkVW);
+            this.Controls.Add(this.ChkGM);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "FrmHome";
@@ -226,15 +238,16 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.CheckBox chkGM;
-        private System.Windows.Forms.CheckBox chkVW;
-        private System.Windows.Forms.CheckBox chkNissan;
+        private System.Windows.Forms.CheckBox ChkGM;
+        private System.Windows.Forms.CheckBox ChkVW;
+        private System.Windows.Forms.CheckBox ChkNissan;
         private System.Windows.Forms.RadioButton RbGEM;
         private System.Windows.Forms.RadioButton RbOnix;
         private System.Windows.Forms.RadioButton RbUP;
         private System.Windows.Forms.RadioButton RbMQB;
         private System.Windows.Forms.RadioButton RbFrontier;
         private System.Windows.Forms.RadioButton RbVersa;
+        private System.Windows.Forms.Button BtnSair;
     }
 }
 

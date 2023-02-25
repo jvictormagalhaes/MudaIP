@@ -33,6 +33,7 @@
             this.BtnEntrar = new System.Windows.Forms.Button();
             this.TxtSenha = new System.Windows.Forms.TextBox();
             this.LblPass = new System.Windows.Forms.Label();
+            this.BtnSair = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LblUser
@@ -48,14 +49,14 @@
             // 
             this.TxtUsuario.Location = new System.Drawing.Point(220, 133);
             this.TxtUsuario.Name = "TxtUsuario";
-            this.TxtUsuario.Size = new System.Drawing.Size(120, 22);
+            this.TxtUsuario.Size = new System.Drawing.Size(166, 22);
             this.TxtUsuario.TabIndex = 1;
             this.TxtUsuario.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // BtnEntrar
             // 
             this.BtnEntrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnEntrar.Location = new System.Drawing.Point(245, 189);
+            this.BtnEntrar.Location = new System.Drawing.Point(265, 189);
             this.BtnEntrar.Name = "BtnEntrar";
             this.BtnEntrar.Size = new System.Drawing.Size(75, 23);
             this.BtnEntrar.TabIndex = 2;
@@ -67,7 +68,7 @@
             // 
             this.TxtSenha.Location = new System.Drawing.Point(220, 161);
             this.TxtSenha.Name = "TxtSenha";
-            this.TxtSenha.Size = new System.Drawing.Size(120, 22);
+            this.TxtSenha.Size = new System.Drawing.Size(166, 22);
             this.TxtSenha.TabIndex = 4;
             // 
             // LblPass
@@ -79,18 +80,31 @@
             this.LblPass.TabIndex = 3;
             this.LblPass.Text = "Senha";
             // 
+            // BtnSair
+            // 
+            this.BtnSair.Location = new System.Drawing.Point(265, 218);
+            this.BtnSair.Name = "BtnSair";
+            this.BtnSair.Size = new System.Drawing.Size(75, 24);
+            this.BtnSair.TabIndex = 11;
+            this.BtnSair.Text = "Sair";
+            this.BtnSair.UseVisualStyleBackColor = true;
+            this.BtnSair.Click += new System.EventHandler(this.BtnSair_Click);
+            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(565, 348);
+            this.ClientSize = new System.Drawing.Size(599, 349);
+            this.Controls.Add(this.BtnSair);
             this.Controls.Add(this.TxtSenha);
             this.Controls.Add(this.LblPass);
             this.Controls.Add(this.BtnEntrar);
             this.Controls.Add(this.TxtUsuario);
             this.Controls.Add(this.LblUser);
             this.Name = "FormLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.FormLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -103,5 +117,6 @@
         private System.Windows.Forms.Button BtnEntrar;
         private System.Windows.Forms.TextBox TxtSenha;
         private System.Windows.Forms.Label LblPass;
+        private System.Windows.Forms.Button BtnSair;
     }
 }

@@ -35,7 +35,7 @@ namespace MudaIP
 
         private void CbGM_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkGM.Checked)
+            if (ChkGM.Checked)
             {
                 RbGEM.Visible = true;
                 RbOnix.Visible = true;
@@ -49,7 +49,7 @@ namespace MudaIP
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkVW.Checked)
+            if (ChkVW.Checked)
             {
                 RbMQB.Visible = true;
                 RbUP.Visible = true;
@@ -63,7 +63,7 @@ namespace MudaIP
 
         private void chkNissan_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkNissan.Checked)
+            if (ChkNissan.Checked)
             {
                 RbVersa.Visible = true;
                 RbFrontier.Visible = true;
@@ -77,6 +77,16 @@ namespace MudaIP
 
         private void RbGEM_CheckedChanged(object sender, EventArgs e)
         {
+        }
+
+        private void BtnSair_Click(object sender, EventArgs e)
+        {
+            DialogResult Sair = MessageBox.Show("Deseja realmente sair ?", "Pergunta", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (Sair.Equals(DialogResult.Yes))
+            {
+                Application.Exit();
+            }
         }
     }
 }
