@@ -1,0 +1,11 @@
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\MudaIP\bin\Debug\MudaIP.exe.config
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\MudaIP\bin\Debug\MudaIP.exe
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\MudaIP\bin\Debug\MudaIP.pdb
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\MudaIP\obj\Debug\MudaIP.csproj.AssemblyReference.cache
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\MudaIP\obj\Debug\MudaIP.csproj.SuggestedBindingRedirects.cache
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\MudaIP\obj\Debug\MudaIP.Properties.Resources.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\MudaIP\obj\Debug\MudaIP.csproj.GenerateResource.cache
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\MudaIP\obj\Debug\MudaIP.csproj.CoreCompileInputs.cache
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\MudaIP\obj\Debug\MudaIP.exe
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\MudaIP\obj\Debug\MudaIP.pdb
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\MudaIP\obj\Debug\MudaIP.FrmHome.resources
