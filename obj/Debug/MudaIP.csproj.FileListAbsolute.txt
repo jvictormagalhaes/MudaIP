@@ -9,3 +9,4 @@ C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPro
 C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\MudaIP\obj\Debug\MudaIP.exe
 C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\MudaIP\obj\Debug\MudaIP.pdb
 C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\MudaIP\obj\Debug\MudaIP.FrmHome.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\MudaIP\obj\Debug\MudaIP.FormLogin.resources

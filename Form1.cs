@@ -77,7 +77,6 @@ namespace MudaIP
 
         private void RbGEM_CheckedChanged(object sender, EventArgs e)
         {
-            Process.Start("C:\\Users\vitor\\OneDrive\\Área de Trabalho\\Curso C# Completo\\WinForms\\PrimeiroPrograma\\MudaIP\bats\\IP-GSI");
         }
     }
 }
